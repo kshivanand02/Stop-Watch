@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --prmary--color:#0AD6A0;
+    --secondary--colo:white;
+}
+
+.container1{
+    background-color: var(--prmary--color);
+    font-family: 'Open Sans',sans-serif;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    justify-content: center;
+    gap: 50 px;
+}
+.number{
+    margin: 0,10px;
+       box-shadow: 0px 0px 5px 0pxrgb(255,255,255);
+       display: flex;
+       justify-content: center;
+       align-items: flex-end;
+       background-color: var(--secondary--colo);
+       color: var(--prmary--color);
+       padding: 50px;
+       border-radius: 20px;
+       height: 60px;
+       margin-top: 80px;
+       gap: 30px;
+       
+       
+
+    }
+
+.container2{
+    display: flex;
+    gap: 50px;
+    margin-left: 50%;
+    margin-top: 10%;
+    background-color: #0AD6A0;
+    padding: 10%;
+    padding-left: 10%;
+margin: 0px;
+}
+#stopbtn{
+    padding: 15px;
+    font-size: larger;
+    background-color: crimson;
+    border-radius: 5px;
+}
+
+#reset{
+    padding: 15px;
+    font-size: larger;
+    background-color: rgb(231, 187, 10);
+    border-radius: 5px;
+}
+
+#start{
+    padding: 15px;
+    font-size: larger;
+    background-color: rgb(20, 220, 93);
+    border-radius: 5px;
+}
+
+#minutes{
+    font-size: 100px;
+    cursor: pointer;
+    
+}
+.H{
+    font-size: 100PX;
+    background-color: crimson;
+    margin-left: 50px;
+    border-radius: 30px;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#seconds{
+    font-size: 100px;
+    cursor: pointer;
+}
+#millisec{
+    font-size: 100px;
+    cursor: pointer;
+}
+
+
+
